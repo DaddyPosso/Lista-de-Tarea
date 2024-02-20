@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    background-color:rgb(125, 203, 223);
+    height: 100vp;
+    font-family: 'Prompt', sans-serif;
+    
+}
+
+.container {
+    max-width: 80%;
+    width: auto;
+    height: 600px;
+    margin: 0 auto;
+}
+
+
+
+.perfil h1{
+    color: rgb(255, 255, 255);
+    
+
+}
+
+.perfil span{
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    
+}
+
+#fecha{
+    color: white;
+    padding: 50px 0 5px 0;
+}
+
+.agregar-Tarea {
+    background-color:white;
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+    margin: 40px 0;
+
+}
+
+.agregar-Tarea input {width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+
+    
+}
+
+.agregar-Tarea i {
+    font-size: 50px;
+    color: rgb(3, 3, 3);
+
+
+}
+
+.agregar-Tarea i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.agregar-Tarea input::placeholder{
+    font-size: 1rem;
+    color: rgb(88, 79, 79);
+}
+
+.seccion-tarea h3{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+   
+   
+}
+
+.seccion-tarea li{
+    display: flex;
+    background: lightseagreen;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    color: white;
+    text-align: center;
+    gap: 1.5rem;
+   
+}
+
+.seccion-tarea i{
+    font-size: 25px;
+}
+
+.seccion-tarea i:hover{
+    color: aquamarine;
+}
+
+.seccion-tarea > ul p {
+    font-size: 1.2rem;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: aquamarine;
+}
+
+.cont-container{
+    display: flex;
+    background: lightseagreen;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    color: white;
+    
+}
+
+
+.lista{
+    max-width: unset;
+    width: auto;
+    height: 280px;
+    margin: auto;
+    overflow-y: scroll;
+    
+}
+
+
